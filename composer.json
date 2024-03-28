@@ -1,0 +1,28 @@
+{
+    "name": "nikola/pza",
+    "description": "An interview task",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nikola\\Pza\\": "application/classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikola Jovic"
+        }
+    ],
+    "require": {
+        "php": "^5.6",
+        "ext-json": "*",
+        "phpunit/phpunit": "3.7.24 - 4",
+		"phing/phing": "2.7.0",
+        "dompdf/dompdf": "^0.8.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
